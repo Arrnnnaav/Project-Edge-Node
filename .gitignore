@@ -1,0 +1,41 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+poetry/
+
+# Generated dataset
+data/synthetic_logs.json
+
+# Tests
+tests/
+
+# Pytest cache
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+
+# Local databases
+*.db
+*.sqlite3
+
+# AI model weights
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+*.gguf
+*.onnx
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
