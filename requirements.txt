@@ -1,6 +1,9 @@
 annotated-types==0.7.0
+certifi==2026.6.17
+charset-normalizer==3.4.9
 colorama==0.4.6
 Faker==40.28.1
+idna==3.18
 iniconfig==2.3.0
 numpy==2.5.0
 packaging==26.2
@@ -9,6 +12,8 @@ pydantic==2.13.4
 pydantic_core==2.46.4
 Pygments==2.20.0
 pytest==9.1.1
+requests==2.34.2
 typing-inspection==0.4.2
 typing_extensions==4.16.0
 tzdata==2026.2
+urllib3==2.7.0
