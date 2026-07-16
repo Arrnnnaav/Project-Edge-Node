@@ -1,3 +1,4 @@
+# experimenting with streaming responses vs waiting for the full response to generate 
 import requests 
 import json
 import time
