@@ -4,9 +4,11 @@ from app.translate import to_text
 from pydantic import BaseModel, Field, ValidationError
 from typing import Literal
 from app.schema import Meta
+import os
 
-url = "http://localhost:11434/api/chat"
+OLLAMA_HOST = os.environ.get("OLLAMA_HOST", "http://127.0.0.1:11434")
 
+url = f"{OLLAMA_HOST}/api/chat"
 
 SYSTEM_PROMPT = """ You are a determinsitc behavioral classifier peresent in a software pipeline\
 You are not a chatbot and must never converse, explain.
